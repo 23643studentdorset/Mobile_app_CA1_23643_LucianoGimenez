@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#393939"
+    android:background="#413A38"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/full_name"
-            android:textColor="#fffae8e8"
+            android:textColor="#FEFCF9"
             android:textSize="30sp" />
 
 
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/email"
-            android:textColor="#fffae8e8"
+            android:textColor="#FEFCF9"
             android:textSize="15sp" />
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -66,7 +66,7 @@
             android:layout_marginTop="20dp"
             android:paddingHorizontal="15dp"
             android:text="@string/intro"
-            android:textColor="#fffae8e8"
+            android:textColor="#FEFCF9"
             android:textSize="17sp" />
 
         <LinearLayout
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:contentDescription="@string/education"
-                android:src="@drawable/ic_iconmonstr_education_1" />
+                android:src="@drawable/ic_iconmonstr_education_1"/>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/skillsButton"
