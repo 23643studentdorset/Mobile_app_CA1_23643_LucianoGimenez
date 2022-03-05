@@ -27,7 +27,7 @@
             app:fabSize="mini"/>
 
         <TextView
-            android:id="@+id/full_name"
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -87,7 +87,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="10dp"
                             android:text="@string/educationRow1Description"
-                            android:textColor="#826437"
                             android:textSize="15sp" />
                         />
                     </LinearLayout>
@@ -129,7 +128,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="10dp"
-                            android:textColor="#826437"
                             android:textSize="15sp"
                             android:text="@string/educationRow2Description"/>
                             />
@@ -170,7 +168,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="10dp"
-                            android:textColor="#826437"
                             android:textSize="15sp"
                             android:text="@string/educationRow3Description"/>
                             />
@@ -212,7 +209,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="10dp"
-                            android:textColor="#826437"
                             android:textSize="15sp"
                             android:text="@string/educationRow4Description"/>
                             />
@@ -254,7 +250,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="10dp"
-                            android:textColor="#826437"
                             android:textSize="15sp"
                             android:text="@string/educationRow5Description"/>
                             />

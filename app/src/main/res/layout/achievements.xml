@@ -31,65 +31,53 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/full_name"
+            android:text="@string/achievements"
             android:textColor="#FEFCF9"
             android:textSize="30sp" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:background="#B1CABA"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-        <TextView
+                <ImageView
+                    android:layout_width="450dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/achievements"/>
 
-            android:id="@+id/email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/email"
-            android:textColor="#FEFCF9"
-            android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/achievementsDescription"
+                    android:padding="10dp"/>
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/bio_photo"
-            android:layout_width="wrap_content"
-            android:layout_height="265dp"
-            android:layout_centerInParent="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginTop="20dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            app:shapeAppearanceOverlay="@style/rounded_photo"
-            app:srcCompat="@drawable/_3299239_10215936046627175_1532991406967095296_n" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:paddingHorizontal="15dp"
-            android:text="@string/intro"
-            android:textColor="#FEFCF9"
-            android:textSize="17sp" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
 
+
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/educationButton"
+                android:id="@+id/homeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:contentDescription="@string/education"
-                android:src="@drawable/ic_iconmonstr_education_1"/>
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/skillsButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:contentDescription="@string/skills"
-                android:src="@drawable/ic_iconmonstr_code_2"/>
-
+                android:contentDescription="@string/full_name"
+                android:src="@drawable/ic_iconmonstr_cv_2" />
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/hobbiesButton"
                 android:layout_width="wrap_content"
@@ -97,16 +85,6 @@
                 android:layout_margin="16dp"
                 android:contentDescription="@string/hobbies"
                 android:src="@drawable/ic_iconmonstr_gamepad_1" />
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/achievementsButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:contentDescription="@string/achievements"
-                android:src="@drawable/ic_iconmonstr_medal_17" />
-
-
         </LinearLayout>
 
         <TextView

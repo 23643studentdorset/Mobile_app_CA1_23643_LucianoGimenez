@@ -33,4 +33,15 @@
     <string name="skillrow7">HTML</string>
     <string name="skillrow8">JavaScript</string>
     <string name="skillrow9">Node.js</string>
+    <string name="hobbie1">\u2022 Playing chess</string>
+    <string name="hobbie1Description">Playing chess—great way to unwind, distress, and keep the mind sharp.</string>
+    <string name="hobbie2">\u2022 Travelling</string>
+    <string name="hobbie2Description">Make and plan annual trips to different countries to experience new cultures.</string>
+    <string name="hobbie3">\u2022 Community service</string>
+    <string name="hobbie3Description">Actively volunteer at a local community soup kitchen twice a month to prepare and serve food.</string>
+    <string name="hobbie4">\u2022 Cooking </string>
+    <string name="hobbie4Description">Blogging about food, including recipes, cooking, and food photography</string>
+    <string name="hobbie5">\u2022 Team sports</string>
+    <string name="hobbie5Description">Plan and participate in a football tournament.</string>
+    <string name="achievementsDescription"> I hold an IT Essentials: PC Hardware &amp; Software and Introduction to Networks certificates, and I am currently wrapping up Switching, Routing, and Wireless Essentials and NDG Linux Essentials courses. I have also enrolled in a Fundamentals of Computing Specialization course and should complete it by the summer of 2022. I am also in the middle of acquiring an NFQ Level 7 Bachelor’s Degree in Computer Science. Thanks to all that, I am familiar with development languages Python and Java, as well as Linux OS. I am able to configure and maintain common applications like MySQL and DNS, and I understand object-oriented design, algorithm design, data structures, problem-solving, and complexity analysis. Over the course of my career, I have held various positions and all of them required me to be extremely creative and flexible. Due to the nature of my roles, I have become adept at handling ambiguous and undefined problems and have developed the ability to think abstractly. In the past year, I realized that I would really like to get into the IT industry, so I started taking courses and did a lot of self-learning. Now, I am looking for a suitable place that can help me use all my potential and direct my growth. I would be thrilled to become a part of your team and further expand my knowledge and skills. I am sure that I am the perfect candidate for this internship due to my positive attitude, willingness to learn, and hardworking nature. I would love to get an opportunity to explain in more detail why I think our collaboration would be mutually beneficial.</string>
 </resources>
