@@ -24,8 +24,6 @@
     <string name="educationRow4Description">Acquiring skills needed to configure and troubleshoot VLANs, Wireless LANs, and Inter-VLAN routing and troubleshoot redundancy on a switched network using STP and EtherChannel.</string>
     <string name="educationRow5Title">CERTIFICATE: NDG LINUX ESSENTIALS</string>
     <string name="educationRow5Description">Gaining an understanding of how Linux is used and mastering Linux commands.</string>
-    <string name="educationRow6Title">CERTIFICATE: INTRODUCTION TO NETWORKS</string>
-    <string name="educationRow6Description">Able to build simple LANs, perform basic configurations for routers and switches, and implement IPv4 and IPv6 addressing schemes while adhering to security best practices.</string>
     <string name="skillRow1">Java</string>
     <string name="skillRow2">Python</string>
     <string name="skillrow3">C#</string>
