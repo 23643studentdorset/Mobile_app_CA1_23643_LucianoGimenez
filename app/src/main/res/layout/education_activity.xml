@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#413A38"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,7 +87,6 @@
                             android:layout_marginHorizontal="10dp"
                             android:text="@string/educationRow1Description"
                             android:textSize="15sp" />
-                        />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -130,7 +128,6 @@
                             android:layout_marginHorizontal="10dp"
                             android:textSize="15sp"
                             android:text="@string/educationRow2Description"/>
-                            />
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -170,7 +167,6 @@
                             android:layout_marginHorizontal="10dp"
                             android:textSize="15sp"
                             android:text="@string/educationRow3Description"/>
-                            />
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -211,7 +207,6 @@
                             android:layout_marginHorizontal="10dp"
                             android:textSize="15sp"
                             android:text="@string/educationRow4Description"/>
-                            />
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -252,7 +247,7 @@
                             android:layout_marginHorizontal="10dp"
                             android:textSize="15sp"
                             android:text="@string/educationRow5Description"/>
-                            />
+
                     </LinearLayout>
                 </LinearLayout>
 

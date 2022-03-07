@@ -4,7 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,29 +14,34 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.i("checker", "starting")
 
-        val closeButton = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.closeButton)
-        val educationButton = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.educationButton)
-        val skillsButton = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.skillsButton)
-        val hobbiesButton = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.hobbiesButton)
-        val achievementsButton = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.achievementsButton)
-
+        val closeButton = findViewById<FloatingActionButton>(R.id.closeButton)
+        val educationButton = findViewById<Button>(R.id.educationButton)
+        /*val skillsButton = findViewById<FloatingActionButton>(R.id.skillsButton)
+        val hobbiesButton = findViewById<FloatingActionButton>(R.id.hobbiesButton)
+        val achievementsButton = findViewById<FloatingActionButton>(R.id.achievementsButton)
+        */
         closeButton.setOnClickListener {
-            finishActivity()
+            finish()
         }
         educationButton.setOnClickListener {
-            val educationActivity = Intent(this, Education::class.java)
-            startActivity(educationActivity)
+            val intent = Intent(this, Education::class.java)
+            startActivity(intent)
         }
-        skillsButton.setOnClickListener {
+
+        /*skillsButton.setOnClickListener {
+            val skillsActivity = Intent(this, Skills::class.java)
+            startActivity(skillsActivity)
         }
         hobbiesButton.setOnClickListener {
+            val skillsActivity = Intent(this, Skills::class.java)
+            startActivity(skillsActivity)
         }
         achievementsButton.setOnClickListener {
+            val skillsActivity = Intent(this, Skills::class.java)
+            startActivity(skillsActivity)
         }
-
+    */
     }
 
-    private fun finishActivity() {
-        finish()
-    }
+
 }

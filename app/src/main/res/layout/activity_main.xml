@@ -74,13 +74,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
+            <Button
                 android:id="@+id/educationButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:contentDescription="@string/education"
-                android:src="@drawable/ic_iconmonstr_education_1"/>
+                android:layout_gravity="bottom|center"
+                android:text="New Activity" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/skillsButton"

@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class Education:AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.education)
+        setContentView(R.layout.education_activity)
 
     }
 
